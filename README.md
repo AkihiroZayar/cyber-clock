@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="app-icon.png" alt="Cyber Clock logo" width="112">
+</p>
+
 <h1 align="center">Cyber Clock</h1>
 
 <p align="center">
@@ -5,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0-1E3A8A" alt="version 1.0.0">
+  <img src="https://img.shields.io/badge/version-1.1.0-1E3A8A" alt="version 1.1.0">
   <img src="https://img.shields.io/badge/vanilla-JavaScript-00A8CC" alt="Vanilla JS">
   <img src="https://img.shields.io/badge/no-dependencies-1E3A8A" alt="No dependencies">
 </p>
@@ -38,6 +42,8 @@ cyber-clock/
 ├── js/
 │   ├── version.js    # APP_VERSION
 │   └── app.js        # Clock, messages, focus mode, particles
+├── app-icon.png        # App logo (README, 512px)
+├── favicon.png · apple-touch-icon.png · icon-192.png · icon-512.png
 ├── CHANGELOG.md
 └── README.md
 ```
@@ -54,7 +60,7 @@ This project uses [Semantic Versioning](https://semver.org/) (`MAJOR.MINOR.PATCH
 - The version lives in **`js/version.js`** (`APP_VERSION`).
 - To release: bump the version, add an entry to [`CHANGELOG.md`](CHANGELOG.md), then create a GitHub Release tagged `vX.Y.Z`.
 
-Current version: **v1.0.0** — see the [changelog](CHANGELOG.md).
+Current version: **v1.1.0** — see the [changelog](CHANGELOG.md).
 
 ## 💬 Community
 
