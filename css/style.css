@@ -120,3 +120,7 @@
     .clock {
         transition: transform .5s ease;
     }
+
+/* Install button (shown only when the browser offers install) */
+.install-btn[hidden] { display: none; }
+.install-btn { margin-left: 8px; opacity: .8; }
